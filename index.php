@@ -27,22 +27,20 @@ include 'includes/header.php';
   <div class="row g-4">
     <div class="col-md-4">
       <div class="cmb-card-sm p-4 h-100">
-        <span class="step-num mb-3">1</span>
-        <h3 class="h5">Isi data makanan</h3>
+      
+        <h3 class="h5">1. Isi data makanan</h3>
         <p class="text-muted-cmb mb-0">Nama makanan, jenis, tanggal beli, dan tempat penyimpanan.</p>
       </div>
     </div>
     <div class="col-md-4">
       <div class="cmb-card-sm p-4 h-100">
-        <span class="step-num mb-3">2</span>
-        <h3 class="h5">Baca penjelasannya</h3>
+        <h3 class="h5">2. Baca penjelasannya</h3>
         <p class="text-muted-cmb mb-0">Hasil berupa penjelasan apakah makanan masih bisa dimakan atau tidak.</p>
       </div>
     </div>
     <div class="col-md-4">
       <div class="cmb-card-sm p-4 h-100">
-        <span class="step-num mb-3" style="background: var(--cmb-amber); color: var(--cmb-ink)">3</span>
-        <h3 class="h5">Naik ke premium</h3>
+        <h3 class="h5">3. Naik ke premium</h3>
         <p class="text-muted-cmb mb-0">Kirim foto makanan, dapat langkah yang bisa dilakukan, dan konsultasi dokter pribadi.</p>
       </div>
     </div>

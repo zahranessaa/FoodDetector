@@ -3,10 +3,6 @@ $judul = 'Daftar';
 $aktif = '';
 include 'includes/header.php';
 
-// TODO (backend autentikasi):
-//  1. Jika method POST: validasi nama, email (filter_var FILTER_VALIDATE_EMAIL), password minimal 8 karakter.
-//  2. Cek email belum terdaftar, simpan dengan password_hash($password, PASSWORD_DEFAULT) lewat PDO prepared statement.
-//  3. Jika gagal: isi $error; jika berhasil: redirect ke login.php.
 $error = $error ?? null;
 ?>
 

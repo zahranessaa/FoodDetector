@@ -28,20 +28,69 @@ $hariIni = date('Y-m-d');
           <div class="row g-2">
             <div class="col-sm-6">
               <input type="radio" class="btn-check" name="jenis" id="j1" value="lauk_santan" checked>
-              <label class="btn" for="j1">Lauk berat (berkuah/santan)</label>
+              <label class="btn" for="j1">Karbohidrat</label>
             </div>
             <div class="col-sm-6">
               <input type="radio" class="btn-check" name="jenis" id="j2" value="lauk_biasa">
-              <label class="btn" for="j2">Lauk berat biasa</label>
+              <label class="btn" for="j2">Daging Merah</label>
             </div>
             <div class="col-sm-6">
               <input type="radio" class="btn-check" name="jenis" id="j3" value="snack">
-              <label class="btn" for="j3">Snack</label>
+              <label class="btn" for="j3">Unggas</label>
             </div>
             <div class="col-sm-6">
               <input type="radio" class="btn-check" name="jenis" id="j4" value="sayur">
-              <label class="btn" for="j4">Sayur-mayur</label>
+              <label class="btn" for="j4">Ikan & Seafood</label>
             </div>
+            <div class="col-sm-6">
+              <input type="radio" class="btn-check" name="jenis" id="j5" value="sayur">
+              <label class="btn" for="j4">Telur</label>
+            </div>
+            <div class="col-sm-6">
+              <input type="radio" class="btn-check" name="jenis" id="j6" value="sayur">
+              <label class="btn" for="j4">Susu & olahannya</label>
+            </div>
+            <div class="col-sm-6">
+              <input type="radio" class="btn-check" name="jenis" id="j4" value="sayur">
+              <label class="btn" for="j4">Sayuran</label>
+            </div>
+            <div class="col-sm-6">
+              <input type="radio" class="btn-check" name="jenis" id="j4" value="sayur">
+              <label class="btn" for="j4">Buah</label>
+            </div>
+            <div class="col-sm-6">
+              <input type="radio" class="btn-check" name="jenis" id="j4" value="sayur">
+              <label class="btn" for="j4">Tahu, Tempe, dan olahan kedelai</label>
+            </div>
+            <div class="col-sm-6">
+              <input type="radio" class="btn-check" name="jenis" id="j4" value="sayur">
+              <label class="btn" for="j4">Berkuah</label>
+            </div>
+            <div class="col-sm-6">
+              <input type="radio" class="btn-check" name="jenis" id="j4" value="sayur">
+              <label class="btn" for="j4">Makanan Kaleng & Kemasan</label>
+            </div>
+            <div class="col-sm-6">
+              <input type="radio" class="btn-check" name="jenis" id="j4" value="sayur">
+              <label class="btn" for="j4">Roti & Kue</label>
+            </div>
+            <div class="col-sm-6">
+              <input type="radio" class="btn-check" name="jenis" id="j4" value="sayur">
+              <label class="btn" for="j4">Camilan</label>
+            </div>
+            <div class="col-sm-6">
+              <input type="radio" class="btn-check" name="jenis" id="j4" value="sayur">
+              <label class="btn" for="j4">Saus & Bumbu</label>
+            </div>
+            <div class="col-sm-6">
+              <input type="radio" class="btn-check" name="jenis" id="j4" value="sayur">
+              <label class="btn" for="j4">Frozen Food</label>
+            </div>
+            <div class="col-sm-6">
+              <input type="radio" class="btn-check" name="jenis" id="j4" value="sayur">
+              <label class="btn" for="j4">Minuman</label>
+            </div>
+
           </div>
         </fieldset>
 
@@ -82,9 +131,9 @@ $hariIni = date('Y-m-d');
       </section>
 
       <div class="d-flex flex-wrap gap-2 justify-content-center mb-4" aria-label="Tiga kemungkinan status">
-        <span class="pill-status status-layak"><i class="bi bi-check-circle-fill"></i> Masih layak</span>
-        <span class="pill-status status-hati"><i class="bi bi-exclamation-triangle-fill"></i> Hati-hati</span>
-        <span class="pill-status status-tidak"><i class="bi bi-x-circle-fill"></i> Tidak layak</span>
+        <span class="pill-status status-layak">Masih layak</span>
+        <span class="pill-status status-hati"></i> Hati-hati</span>
+        <span class="pill-status status-tidak"></i> Tidak layak</span>
       </div>
 
       <aside class="upsell p-4">
