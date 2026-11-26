@@ -1,0 +1,362 @@
+/* CekMakananBasi: tema hijau segar di atas Bootstrap 5.3 */
+:root {
+    --cmb-ground: #ffffff;
+    --cmb-ink: #17261D;
+    --cmb-muted: #4A5A50;
+    --cmb-green: #1B6B43;
+    --cmb-green-dark: #14532D;
+    --cmb-mint: #DDEFE2;
+    --cmb-amber: #F2B84B;
+    --cmb-line: #D5E2D8;
+
+    --bs-primary: #1B6B43;
+    --bs-primary-rgb: 27, 107, 67;
+    --bs-body-bg: var(--cmb-ground);
+    --bs-body-color: var(--cmb-ink);
+    --bs-body-font-family: 'Plus Jakarta Sans', system-ui, sans-serif;
+    --bs-border-color: var(--cmb-line);
+    --bs-link-color: var(--cmb-green);
+    --bs-link-hover-color: var(--cmb-green-dark);
+}
+
+body {
+    background: var(--cmb-ground);
+    color: var(--cmb-ink);
+}
+
+h1,
+h2,
+h3,
+h4 {
+    font-weight: 800;
+    letter-spacing: -0.01em;
+}
+
+.text-muted-cmb {
+    color: var(--cmb-muted);
+}
+
+/* Tombol */
+.btn {
+    font-weight: 700;
+    border-radius: 12px;
+    min-height: 44px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: .5rem;
+}
+
+.btn-lg {
+    min-height: 52px;
+    border-radius: 14px;
+}
+
+.btn-primary {
+    --bs-btn-bg: var(--cmb-green);
+    --bs-btn-border-color: var(--cmb-green);
+    --bs-btn-hover-bg: var(--cmb-green-dark);
+    --bs-btn-hover-border-color: var(--cmb-green-dark);
+    --bs-btn-active-bg: var(--cmb-green-dark);
+    --bs-btn-active-border-color: var(--cmb-green-dark);
+    --bs-btn-disabled-bg: var(--cmb-green);
+    --bs-btn-disabled-border-color: var(--cmb-green);
+}
+
+.btn-outline-primary {
+    --bs-btn-color: var(--cmb-green);
+    --bs-btn-border-color: var(--cmb-green);
+    --bs-btn-hover-bg: var(--cmb-green);
+    --bs-btn-hover-border-color: var(--cmb-green);
+    --bs-btn-active-bg: var(--cmb-green);
+    --bs-btn-active-border-color: var(--cmb-green);
+}
+
+.btn-dark {
+    --bs-btn-bg: var(--cmb-ink);
+    --bs-btn-border-color: var(--cmb-ink);
+}
+
+/* Navbar */
+.navbar {
+    background: #fff;
+    border-bottom: 1px solid var(--cmb-line);
+}
+
+.brand-mark {
+    width: 36px;
+    height: 36px;
+    border-radius: 12px;
+    background: var(--cmb-green);
+    color: #fff;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.2rem;
+}
+
+.navbar-brand {
+    font-weight: 800;
+    display: flex;
+    align-items: center;
+    gap: .6rem;
+}
+
+.navbar .nav-link {
+    font-weight: 600;
+    color: var(--cmb-ink);
+    padding: .5rem 0;
+}
+
+.navbar .nav-link.active {
+    color: var(--cmb-green-dark);
+    border-bottom: 3px solid var(--cmb-green);
+}
+
+@media (min-width: 768px) {
+    .navbar .nav-link {
+        margin: 0 .9rem;
+    }
+}
+
+/* Kartu */
+.cmb-card {
+    background: #fff;
+    border: 1px solid var(--cmb-line);
+    border-radius: 24px;
+}
+
+.cmb-card-sm {
+    background: #fff;
+    border: 1px solid var(--cmb-line);
+    border-radius: 20px;
+}
+
+.chip {
+    display: inline-block;
+    padding: .25rem .7rem;
+    border-radius: 999px;
+    background: var(--cmb-mint);
+    color: var(--cmb-green-dark);
+    font-size: .75rem;
+    font-weight: 700;
+}
+
+.step-num {
+    width: 40px;
+    height: 40px;
+    border-radius: 12px;
+    background: var(--cmb-mint);
+    color: var(--cmb-green-dark);
+    font-weight: 800;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Hero */
+.hero h1 {
+    font-size: clamp(2.2rem, 5vw, 3.5rem);
+    line-height: 1.08;
+}
+
+.hero-art {
+    background: var(--cmb-mint);
+    border-radius: 40px;
+    aspect-ratio: 1 / 1;
+    max-width: 440px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+/* Form */
+.form-control,
+.form-select {
+    min-height: 52px;
+    border: 1.5px solid #B9CDBF;
+    border-radius: 12px;
+}
+
+.form-control:focus,
+.form-select:focus {
+    border-color: var(--cmb-green);
+    box-shadow: 0 0 0 .25rem rgba(27, 107, 67, .2);
+}
+
+.form-label,
+legend.form-label {
+    font-weight: 700;
+    font-size: .95rem;
+}
+
+.opsi .btn {
+    width: 100%;
+    min-height: 52px;
+    text-align: left;
+    justify-content: flex-start;
+    border: 1.5px solid #B9CDBF;
+    color: var(--cmb-ink);
+    background: #fff;
+    font-weight: 600;
+}
+
+.btn-check:checked+.btn {
+    border-color: var(--cmb-green);
+    background: #E9F5ED;
+    color: var(--cmb-ink);
+    box-shadow: inset 0 0 0 1px var(--cmb-green);
+}
+
+.btn-check:focus-visible+.btn {
+    outline: 3px solid rgba(27, 107, 67, .35);
+    outline-offset: 2px;
+}
+
+.dropzone {
+    border: 2px dashed #7FA68D;
+    border-radius: 16px;
+    background: var(--cmb-ground);
+    padding: 1.25rem;
+}
+
+/* Status hasil (ikon + tulisan + warna, tidak hanya warna) */
+.status-box {
+    display: flex;
+    align-items: center;
+    gap: .9rem;
+    padding: 1.1rem;
+    border-radius: 16px;
+}
+
+.status-box i {
+    font-size: 2.2rem;
+    line-height: 1;
+}
+
+.status-box .label {
+    font-size: .75rem;
+    font-weight: 700;
+    letter-spacing: .04em;
+    text-transform: uppercase;
+    display: block;
+}
+
+.status-box .judul {
+    font-size: 1.5rem;
+    font-weight: 800;
+}
+
+.status-layak {
+    background: #DDF0E3;
+    color: #0F4A2A;
+}
+
+.status-hati {
+    background: #FFF0C7;
+    color: #5A3700;
+}
+
+.status-tidak {
+    background: #FBE3DA;
+    color: #7A2308;
+}
+
+.pill-status {
+    display: inline-flex;
+    align-items: center;
+    gap: .4rem;
+    padding: .45rem .9rem;
+    border-radius: 999px;
+    font-weight: 700;
+    font-size: .8rem;
+}
+
+/* Banner ajakan premium */
+.upsell {
+    background: #FFF0C7;
+    border-radius: 20px;
+    color: #4F3500;
+}
+
+/* Paket */
+.plan-premium {
+    border: 2.5px solid var(--cmb-green);
+    position: relative;
+}
+
+.plan-badge {
+    position: absolute;
+    top: -14px;
+    left: 28px;
+    background: var(--cmb-amber);
+    color: var(--cmb-ink);
+    font-weight: 800;
+    font-size: .8rem;
+    padding: .3rem .9rem;
+    border-radius: 999px;
+}
+
+.plan-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.plan-list li {
+    display: flex;
+    gap: .6rem;
+    margin-bottom: .8rem;
+}
+
+.plan-list i {
+    color: var(--cmb-green);
+    font-size: 1.2rem;
+}
+
+/* Chat dokter */
+.chat-box {
+    background: var(--cmb-ground);
+    border-radius: 16px;
+    padding: 1.25rem;
+    min-height: 160px;
+    display: flex;
+    flex-direction: column;
+    gap: .75rem;
+}
+
+.bubble {
+    max-width: 80%;
+    padding: .75rem 1rem;
+    border-radius: 16px;
+    line-height: 1.55;
+}
+
+.bubble-user {
+    align-self: flex-end;
+    background: var(--cmb-green);
+    color: #fff;
+    border-bottom-right-radius: 4px;
+}
+
+.bubble-dokter {
+    align-self: flex-start;
+    background: #fff;
+    border: 1px solid var(--cmb-line);
+    border-bottom-left-radius: 4px;
+}
+
+.bubble-dokter .nama {
+    display: block;
+    font-size: .75rem;
+    font-weight: 800;
+    color: var(--cmb-green-dark);
+    margin-bottom: .2rem;
+}
+
+.footer-note {
+    color: var(--cmb-muted);
+    font-size: .9rem;
+}

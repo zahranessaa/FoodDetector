@@ -1,6 +1,10 @@
 <?php
+$judul = 'Berlangganan';
+$aktif = 'langganan';
 include 'includes/header.php';
+
 ?>
+
 <main class="container py-5">
   <div class="text-center mb-5">
     <h1 class="mb-2">Pilih paket yang pas</h1>
@@ -12,11 +16,7 @@ include 'includes/header.php';
       <section class="cmb-card p-4 h-100 d-flex flex-column">
         <h2 class="h4">Gratis</h2>
         <p class="display-6 fw-bold mb-4">Rp0</p>
-        <ul class="plan-list mb-4">
-          <?php foreach ($gratis as $g): ?>
-            <li><i class="bi bi-check-lg"></i><span><?= htmlspecialchars($g) ?></span></li>
-          <?php endforeach; ?>
-        </ul>
+        
         <a href="cek.php" class="btn btn-outline-dark btn-lg mt-auto">Pakai gratis</a>
       </section>
     </div>
@@ -25,13 +25,9 @@ include 'includes/header.php';
       <section class="cmb-card plan-premium p-4 h-100 d-flex flex-column">
         <span class="plan-badge">Paling lengkap</span>
         <h2 class="h4">Premium</h2>
-        <!-- ISI HARGA SESUAI KEPUTUSAN KELOMPOK -->
-        <p class="display-6 fw-bold mb-4">[HARGA] <span class="fs-6 fw-semibold text-muted-cmb">/ bulan</span></p>
-        <ul class="plan-list mb-4">
-          <?php foreach ($premium as $p): ?>
-            <li><i class="bi bi-check-lg"></i><span><?= htmlspecialchars($p) ?></span></li>
-          <?php endforeach; ?>
-        </ul>
+
+        <p class="display-6 fw-bold mb-4">"100 M"<span class="fs-6 fw-semibold text-muted-cmb">/ bulan</span></p>
+        
         <a href="register.php" class="btn btn-primary btn-lg mt-auto">Daftar untuk berlangganan</a>
       </section>
     </div>

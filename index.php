@@ -4,19 +4,60 @@ $aktif = '';
 include 'includes/header.php';
 ?>
 
-<main class="container py-5">
-    <img src="Slice 1.png" class="img-fluid" alt="...">
-    <div class="d-flex flex-column justify-content-center text-center bg-subtle-success p-9 bg-2 rounded-5" style="min-height: 320px;">
-        <h3>Style it your way</h3>
-        <p class="fg-emphasis-secondary mb-3">Use utilities or custom CSS to size and theme each slide however you need.</p>
-        <div><a class="btn-solid theme-success" href="#">Learn more</a></div>
-      </div>
-      <div class="grid grid-cols-subgrid" style="grid-column: 1 / -1;">
-    <div>Subgrid column (2fr)</div>
-    <div>Subgrid column (1fr)</div>
-    <div>Subgrid column (1fr)</div>
+<!-- HERO -->
+<section class="hero container py-5">
+  <img src="Slice 1.png" class="img-fluid">
+  <div class="row mt-5">
+    <div class="card-body text-center">
+        <h1>Langsung cek saja disini!</h1>
+        <p class="fs-4">
+            Isi nama, jenis, tanggal beli, dan tempat penyimpanan.
+            Kamu langsung mendapat penjelasan apakah makanan itu masih bisa dimakan
+            atau sebaiknya dibuang.
+        </p>
+        <div class="d-grid gap-2 col-6 mx-auto">
+          <a href="cek.php" class="btn btn-success" type="button">Cek Sekarang!</a>
+        </div>
+    </div>
   </div>
-</main>
 
+
+<section class="container py-4 pb-5">
+  <h2 class="mb-4">Cara kerjanya</h2>
+  <div class="row g-4">
+    <div class="col-md-4">
+      <div class="cmb-card-sm p-4 h-100">
+        <span class="step-num mb-3">1</span>
+        <h3 class="h5">Isi data makanan</h3>
+        <p class="text-muted-cmb mb-0">Nama makanan, jenis, tanggal beli, dan tempat penyimpanan.</p>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="cmb-card-sm p-4 h-100">
+        <span class="step-num mb-3">2</span>
+        <h3 class="h5">Baca penjelasannya</h3>
+        <p class="text-muted-cmb mb-0">Hasil berupa penjelasan apakah makanan masih bisa dimakan atau tidak.</p>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="cmb-card-sm p-4 h-100">
+        <span class="step-num mb-3" style="background: var(--cmb-amber); color: var(--cmb-ink)">3</span>
+        <h3 class="h5">Naik ke premium</h3>
+        <p class="text-muted-cmb mb-0">Kirim foto makanan, dapat langkah yang bisa dilakukan, dan konsultasi dokter pribadi.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- AJAKAN -->
+<section class="bg-white border-top border-bottom">
+  <div class="container py-5 d-flex flex-wrap align-items-center justify-content-between gap-3">
+    <div style="max-width: 640px">
+      <h2 class="h3">Butuh penjelasan yang lebih spesifik?</h2>
+      <p class="text-muted-cmb mb-0">Daftar dan berlangganan untuk mengirim foto makanan, mendapat langkah penanganan, dan berkonsultasi dengan dokter pribadi dari dashboard.</p>
+    </div>
+    <a href="langganan.php" class="btn btn-dark btn-lg px-4">Berlangganan</a>
+  </div>
+</section>
 
 <?php include 'includes/footer.php'; ?>
