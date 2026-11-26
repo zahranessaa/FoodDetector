@@ -3,7 +3,6 @@ $judul = 'Check Now';
 $aktif = 'cek';
 include 'includes/header.php';
 
-// Tanggal default = hari ini, dan tidak boleh di masa depan
 $hariIni = date('Y-m-d');
 ?>
 
@@ -73,7 +72,7 @@ $hariIni = date('Y-m-d');
       </form>
     </div>
 
-    <!-- HASIL -->
+    
     <div class="col-lg-6 d-flex flex-column gap-3">
       <section class="cmb-card p-4" aria-label="Hasil pengecekan" aria-live="polite">
         <h2 class="h5 mb-3">Hasil pengecekan</h2>

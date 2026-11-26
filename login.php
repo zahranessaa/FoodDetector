@@ -3,11 +3,6 @@ $judul = 'Masuk';
 $aktif = '';
 include 'includes/header.php';
 
-// TODO (backend autentikasi):
-//  1. Jika $_SERVER['REQUEST_METHOD'] === 'POST': ambil email + password,
-//     cari user dengan PDO prepared statement, cek dengan password_verify().
-//  2. Jika cocok: session_regenerate_id(true); isi $_SESSION['user_id'] dan $_SESSION['nama']; redirect ke dashboard.php.
-//  3. Jika gagal: isi $error = 'Email atau kata sandi salah.';
 $error = $error ?? null;
 ?>
 

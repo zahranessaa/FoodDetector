@@ -4,8 +4,6 @@ $aktif = 'ensiklopedia';
 $scripts = ['assets/js/ensiklopedia.js'];
 include 'includes/header.php';
 
-// DATA CONTOH. Nanti ganti dengan query ke tabel `ensiklopedia` (PDO).
-// Sebelum dikumpulkan, ganti isinya dengan sumber resmi (Kemenkes / BPOM).
 $items = [
     ['nama' => 'Nasi putih',            'jenis' => 'Lauk biasa',          'terbuka' => '±1 hari',    'dingin' => '3-4 hari', 'tips' => 'Dinginkan cepat, simpan tertutup, panaskan sampai benar-benar panas.'],
     ['nama' => 'Masakan bersantan',     'jenis' => 'Lauk berkuah/santan', 'terbuka' => '±6-8 jam',   'dingin' => '1-2 hari', 'tips' => 'Santan cepat basi. Panaskan ulang sampai mendidih.'],

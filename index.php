@@ -4,7 +4,7 @@ $aktif = '';
 include 'includes/header.php';
 ?>
 
-<!-- HERO -->
+
 <section class="hero container py-5">
   <img src="Slice 1.png" class="img-fluid">
   <div class="row mt-5">
@@ -49,7 +49,7 @@ include 'includes/header.php';
   </div>
 </section>
 
-<!-- AJAKAN -->
+
 <section class="bg-white border-top border-bottom">
   <div class="container py-5 d-flex flex-wrap align-items-center justify-content-between gap-3">
     <div style="max-width: 640px">
