@@ -12,7 +12,7 @@ include 'includes/header.php';
   </div>
 
   <div class="row g-4 justify-content-center mx-auto" style="max-width: 880px">
-    <div class="col-md-6">
+    <div class="col-lg-4">
       <section class="cmb-card p-4 h-100 d-flex flex-column">
         <h2 class="h4">Gratis</h2>
         <p class="display-6 fw-bold mb-4">Rp0</p>
@@ -21,12 +21,22 @@ include 'includes/header.php';
       </section>
     </div>
 
-    <div class="col-md-6">
+    <div class="col-lg-4">
       <section class="cmb-card plan-premium p-4 h-100 d-flex flex-column">
         <span class="plan-badge">Paling lengkap</span>
         <h2 class="h4">Premium</h2>
 
         <p class="display-6 fw-bold mb-4">"100 M"<span class="fs-6 fw-semibold text-muted-cmb">/ bulan</span></p>
+        
+        <a href="register.php" class="btn btn-primary btn-lg mt-auto">Daftar untuk berlangganan</a>
+      </section>
+    </div>
+    <div class="col-lg-4">
+      <section class="cmb-card plan-premium p-4 h-100 d-flex flex-column">
+        <span class="plan-badge">Paling lengkap</span>
+        <h2 class="h4">Premium</h2>
+
+        <p class="display-6 fw-bold mb-4">"150 M"<span class="fs-6 fw-semibold text-muted-cmb">/ tahun</span></p>
         
         <a href="register.php" class="btn btn-primary btn-lg mt-auto">Daftar untuk berlangganan</a>
       </section>

@@ -41,7 +41,7 @@ include 'includes/header.php';
     <div class="col-md-4">
       <div class="cmb-card-sm p-4 h-100">
         <h3 class="h5">3. Naik ke premium</h3>
-        <p class="text-muted-cmb mb-0">Kirim foto makanan, dapat langkah yang bisa dilakukan, dan konsultasi dokter pribadi.</p>
+        <p class="text-muted-cmb mb-0">Kirim form, dapat langkah yang bisa dilakukan, dan konsultasi dokter pribadi.</p>
       </div>
     </div>
   </div>

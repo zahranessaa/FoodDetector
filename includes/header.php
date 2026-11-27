@@ -15,7 +15,7 @@ function navAktif(string $nama, string $aktif): string
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title><?= htmlspecialchars($judul) ?> | CekMakananBasi</title>
+  <title><?= htmlspecialchars($judul) ?> | Food Detector (PBP UAS Project TI 2025 D)</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
@@ -36,7 +36,7 @@ function navAktif(string $nama, string $aktif): string
     <div class="collapse navbar-collapse" id="menu">
       <ul class="navbar-nav mx-md-auto">
         <li class="nav-item"><a class="nav-link<?= navAktif('cek', $aktif) ?>" href="cekform.php">Check Now</a></li>
-        <li class="nav-item"><a class="nav-link<?= navAktif('ensiklopedia', $aktif) ?>" href="ensiklopedia.php">Ensiklopedia</a></li>
+        <li class="nav-item"><a class="nav-link<?= navAktif('ensiklopedia', $aktif) ?>" href="ensiklopedia.php">Food Dictionary</a></li>
         <li class="nav-item"><a class="nav-link<?= navAktif('langganan', $aktif) ?>" href="langganan.php">Berlangganan</a></li>
       </ul>
       <div class="d-flex flex-wrap gap-2 mt-3 mt-md-0">

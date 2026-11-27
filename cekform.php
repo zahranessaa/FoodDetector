@@ -23,72 +23,72 @@ $hariIni = date('Y-m-d');
           <input id="nama" name="nama" type="text" class="form-control" maxlength="100" placeholder="contoh: opor ayam" required>
         </div>
 
-        <fieldset class="mb-4 opsi">
+        <fieldset class="mb-16 opsi">
           <legend class="form-label">Jenis makanan</legend>
           <div class="row g-2">
             <div class="col-sm-6">
-              <input type="radio" class="btn-check" name="jenis" id="j1" value="lauk_santan" checked>
+              <input type="radio" class="btn-check" name="jenis" id="j1" value="karbohidrat" checked>
               <label class="btn" for="j1">Karbohidrat</label>
             </div>
             <div class="col-sm-6">
-              <input type="radio" class="btn-check" name="jenis" id="j2" value="lauk_biasa">
+              <input type="radio" class="btn-check" name="jenis" id="j2" value="daging_merah">
               <label class="btn" for="j2">Daging Merah</label>
             </div>
             <div class="col-sm-6">
-              <input type="radio" class="btn-check" name="jenis" id="j3" value="snack">
+              <input type="radio" class="btn-check" name="jenis" id="j3" value="unggas">
               <label class="btn" for="j3">Unggas</label>
             </div>
             <div class="col-sm-6">
-              <input type="radio" class="btn-check" name="jenis" id="j4" value="sayur">
+              <input type="radio" class="btn-check" name="jenis" id="j4" value="seafood">
               <label class="btn" for="j4">Ikan & Seafood</label>
             </div>
             <div class="col-sm-6">
-              <input type="radio" class="btn-check" name="jenis" id="j5" value="sayur">
-              <label class="btn" for="j4">Telur</label>
+              <input type="radio" class="btn-check" name="jenis" id="j5" value="telur">
+              <label class="btn" for="j5">Telur</label>
             </div>
             <div class="col-sm-6">
-              <input type="radio" class="btn-check" name="jenis" id="j6" value="sayur">
-              <label class="btn" for="j4">Susu & olahannya</label>
+              <input type="radio" class="btn-check" name="jenis" id="j6" value="susu">
+              <label class="btn" for="j6">Susu & olahannya</label>
             </div>
             <div class="col-sm-6">
-              <input type="radio" class="btn-check" name="jenis" id="j4" value="sayur">
-              <label class="btn" for="j4">Sayuran</label>
+              <input type="radio" class="btn-check" name="jenis" id="j7" value="sayur">
+              <label class="btn" for="j7">Sayuran</label>
             </div>
             <div class="col-sm-6">
-              <input type="radio" class="btn-check" name="jenis" id="j4" value="sayur">
-              <label class="btn" for="j4">Buah</label>
+              <input type="radio" class="btn-check" name="jenis" id="j8" value="buah">
+              <label class="btn" for="j8">Buah</label>
             </div>
             <div class="col-sm-6">
-              <input type="radio" class="btn-check" name="jenis" id="j4" value="sayur">
-              <label class="btn" for="j4">Tahu, Tempe, dan olahan kedelai</label>
+              <input type="radio" class="btn-check" name="jenis" id="j9" value="kedelai">
+              <label class="btn" for="j9">Tahu, Tempe, dan olahan kedelai</label>
             </div>
             <div class="col-sm-6">
-              <input type="radio" class="btn-check" name="jenis" id="j4" value="sayur">
-              <label class="btn" for="j4">Berkuah</label>
+              <input type="radio" class="btn-check" name="jenis" id="j10" value="kuah">
+              <label class="btn" for="j10">Berkuah</label>
             </div>
             <div class="col-sm-6">
-              <input type="radio" class="btn-check" name="jenis" id="j4" value="sayur">
-              <label class="btn" for="j4">Makanan Kaleng & Kemasan</label>
+              <input type="radio" class="btn-check" name="jenis" id="j11" value="kaleng_kemasan">
+              <label class="btn" for="j11">Makanan Kaleng & Kemasan</label>
             </div>
             <div class="col-sm-6">
-              <input type="radio" class="btn-check" name="jenis" id="j4" value="sayur">
-              <label class="btn" for="j4">Roti & Kue</label>
+              <input type="radio" class="btn-check" name="jenis" id="j12" value="roti">
+              <label class="btn" for="j12">Roti & Kue</label>
             </div>
             <div class="col-sm-6">
-              <input type="radio" class="btn-check" name="jenis" id="j4" value="sayur">
-              <label class="btn" for="j4">Camilan</label>
+              <input type="radio" class="btn-check" name="jenis" id="j13" value="camilan">
+              <label class="btn" for="j13">Camilan</label>
             </div>
             <div class="col-sm-6">
-              <input type="radio" class="btn-check" name="jenis" id="j4" value="sayur">
-              <label class="btn" for="j4">Saus & Bumbu</label>
+              <input type="radio" class="btn-check" name="jenis" id="j14" value="bumbu">
+              <label class="btn" for="j14">Saus & Bumbu</label>
             </div>
             <div class="col-sm-6">
-              <input type="radio" class="btn-check" name="jenis" id="j4" value="sayur">
-              <label class="btn" for="j4">Frozen Food</label>
+              <input type="radio" class="btn-check" name="jenis" id="j15" value="frozen_food">
+              <label class="btn" for="j15">Frozen Food</label>
             </div>
             <div class="col-sm-6">
-              <input type="radio" class="btn-check" name="jenis" id="j4" value="sayur">
-              <label class="btn" for="j4">Minuman</label>
+              <input type="radio" class="btn-check" name="jenis" id="j16" value="minuman">
+              <label class="btn" for="j16">Minuman</label>
             </div>
 
           </div>

@@ -1,7 +1,6 @@
 <?php
-$judul = 'Ensiklopedia';
-$aktif = 'ensiklopedia';
-$scripts = ['assets/js/ensiklopedia.js'];
+$judul = 'Food Dictionary';
+
 include 'includes/header.php';
 
 $items = [
@@ -16,7 +15,7 @@ $filter = ['Semua', 'Lauk berkuah/santan', 'Lauk biasa', 'Snack', 'Sayur-mayur']
 ?>
 
 <main class="container py-5">
-  <h1 class="mb-2">Ensiklopedia</h1>
+  <h1 class="mb-2">Food Dictionary</h1>
   <p class="fs-5 text-muted-cmb mb-4">Perkiraan daya tahan berbagai makanan sesuai tempat penyimpanannya.</p>
 
   <div class="mb-3" style="max-width: 560px">
